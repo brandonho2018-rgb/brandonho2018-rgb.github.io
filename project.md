@@ -249,8 +249,8 @@ In summary, I conclude that the random forest model best predicts the classifica
 In the future, it may be worth exploring the use of multi-class classification rather than transforming the dataset into binary classes. Because I changed the quality values to binary, the results of predicting good or bad wine is a bit subjective because it is the choice of the threshold quality ratings value (in our case 5) that determines whether the wine was good or bad. In other words, one can choose the threshold value to be 4 and up as good wine and the model would still be able to do its predictions but instead would most likely predict more wine to be good due to there being more datapoints for the good wine. In summary, the threshold value of quality ratings is arbitrary and not an accurate determining factor of what "good" or "bad" wine is.
 
 ## References
-[1] Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Wine Quality [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C56S3T.
-[2] Derbyshire, David. Guardian News and Media. (2013, June 22). Wine-tasting: It’s junk science. The Guardian. https://www.theguardian.com/lifeandstyle/2013/jun/23/wine-tasting-junk-science-analysis 
+[1] Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Wine Quality [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C56S3T.  
+[2] Derbyshire, David. Guardian News and Media. (2013, June 22). Wine-tasting: It’s junk science. The Guardian. https://www.theguardian.com/lifeandstyle/2013/jun/23/wine-tasting-junk-science-analysis   
 [3] Home Page - Gomberg, Fredrikson & Associates. GFA Wine. (2025, December 3). https://www.gfawine.com/ 
 
 
