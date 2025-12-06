@@ -28,6 +28,8 @@ The redwine dataset consists of 12 columns:
   12. quality
 Our traget variable is 'quality' since this is the variable we would like to predict using the data from the other columns. Therefore we have 11 features to consider in this dataset. I chose to do binary classification rather than multiclass classification in order to simplify the 'quality' dataset, although multiclass classification may provide better results due to the skewing of the data as shown in figure 1.
 
+![](assets/IMG/pre-binary quality hist.png){: width="500" }
+
 ![](assets/IMG/datapenguin.png){: width="500" }
 
 *Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
